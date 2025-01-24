@@ -1,0 +1,331 @@
+.client-management {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.client-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px; /* Reduced padding to minimize height */
+  margin-bottom: 0; /* Remove bottom margin */
+  height: 60px; /* Explicitly set the header height */
+  background-color: #ffffff; /* Optional: Set background color */
+  margin-bottom: 40px;
+}
+
+.client-management-header h1 {
+  font-size: 18px; /* Reduce the font size */
+  margin: 0; /* Remove unnecessary margins */
+  color: #333;
+}
+
+.client-management-header p {
+  font-size: 12px; /* Reduce the font size */
+  margin: 0; /* Remove unnecessary margins */
+  color: #666;
+}
+
+.action-buttons .btn {
+  padding: 5px 10px; /* Adjust padding */
+  font-size: 14px; /* Keep font size consistent */
+  height: 30px; /* Explicit button height */
+  line-height: 1; /* Ensure proper text alignment */
+  margin-left: 8px; /* Space between buttons */
+  border-radius: 4px; /* Slight rounding */
+}
+
+
+.btn-light {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #176b87;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+
+
+.client-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.btn-light {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  color: #333;
+  height: 32px; /* Set an explicit height for the button */
+  line-height: 32px; /* Align the text vertically */
+  font-size: 14px; /* Adjust font size for better readability */
+  border-radius: 5px; /* Optional: Maintain rounded corners */
+  cursor: pointer;
+  padding: 0 10px; /* Horizontal padding only, no vertical padding */
+  display: inline-flex; /* Ensure consistent vertical alignment */
+  align-items: center; /* Center-align content vertically */
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1;
+  border-color: #ccc;
+}
+
+
+
+.btn-primary {
+  background-color: #176b87;
+  border: none;
+  color: white;
+}
+
+.client-management-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contact-details-section {
+  width: 30%; /* Left section width */
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Spacing below the profile header */
+}
+
+.profile-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Keeps the image circular */
+  margin-right: 15px; /* Space between image and name/ID */
+}
+
+.client-info h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.client-info .client-id {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0; /* Vertical spacing for the line */
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px; /* Spacing between contact details */
+}
+
+.contact-details li svg {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+.details-and-timeline {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details-section,
+.timeline-section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.details-section h3,
+.timeline-section h3 {
+  margin: 0 0 20px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Reduce the vertical spacing between detail rows */
+}
+
+.detail-item {
+  display: flex;
+  justify-content: flex-start; /* Align items closer */
+  gap: 300px; /* Add spacing between the label and value */
+  font-size: 14px;
+  color: #333;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #555;
+  margin-right: 50px; /* Adjust spacing to separate label from value */
+  min-width: 124px; /* Optional: Ensure consistent width for labels */
+}
+
+
+.resume-link {
+  color: #176b87;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 30px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ddd;
+}
+
+.status-icon {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #28a745;
+  color: white;
+  font-size: 12px;
+}
+
+.timeline-content {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.timeline-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+  text-align: center; /* Align title to center */
+}
+
+.timeline-description {
+  font-size: 12px;
+  color: #666;
+  text-align: center; /* Align description to center */
+  margin: 5px 0; /* Add some spacing around description */
+}
+
+.timeline-date {
+  font-size: 12px;
+  color: #999;
+  text-align: center; /* Align date to center */
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timeline-item.completed .status-icon {
+  color: green;
+}
+
+.status-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-content {
+  margin-left: 10px;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.timeline-btn {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

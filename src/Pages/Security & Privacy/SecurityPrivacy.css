@@ -1,0 +1,256 @@
+/* General Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.security-privacy {
+  padding: 20px;
+}
+
+/* Header Section */
+.client-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-management-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.client-management-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.action-buttons .btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons .btn-light {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.action-buttons .btn-light:hover {
+  background-color: #d6d8db;
+}
+
+.action-buttons .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.action-buttons .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* User Access Management */
+.user-access-management {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.user-access-management h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.access-management-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.access-management-table th,
+.access-management-table td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.access-management-table th {
+  background-color: #f4f4f4;
+  color: #555;
+  font-weight: bold;
+}
+
+.access-management-table td {
+  color: #555;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.status.active {
+  background-color: #28a745;
+  color: white;
+}
+
+.status.suspend {
+  background-color: #f8d7da;
+  color: #dc3545;
+}
+
+.access-management-table select {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons Section */
+.user-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.user-actions .btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-actions .btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.user-actions .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.user-actions .btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.user-actions .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Authentication Modes */
+.authentication-modes {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.authentication-modes h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.two-factor-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.two-factor-auth label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Security Alerts */
+.security-alerts {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.security-alerts h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.security-alerts p {
+  font-size: 16px;
+  color: #555;
+}
+
+.security-alerts b {
+  font-weight: bold;
+  color: #333;
+}

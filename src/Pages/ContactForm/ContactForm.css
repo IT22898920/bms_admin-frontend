@@ -1,0 +1,25 @@
+.fields-section, .form-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fields-list, .form-builder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field-button, .form-field {
+  padding: 10px;
+  background: #176b87;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.field-button:hover, .form-field:hover {
+  background: #154e65;
+}

@@ -1,0 +1,51 @@
+.my-request-form {
+  padding: 20px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-container {
+  padding: 20px;
+}
+
+.ant-btn-link {
+  padding: 0;
+  color: #1890ff;
+  font-size: 14px;
+}
+
+
+.my-request-form {
+  padding: 20px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-container {
+  text-align: center;
+  color: red;
+  font-size: 16px;
+}
+
+.view-button {
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-button:hover {
+  background-color: #40a9ff;
+}

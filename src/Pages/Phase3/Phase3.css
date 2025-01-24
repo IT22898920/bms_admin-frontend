@@ -1,0 +1,121 @@
+.document-management {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.header p {
+  margin: 0;
+  color: #888;
+}
+
+.action-buttons button {
+  margin-left: 10px;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.btn-primary {
+  background-color: #053B50;
+  color: white;
+  border: none;
+}
+
+.filter-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-buttons {
+  margin-bottom: 15px;
+}
+
+.btn-add-task {
+  background-color: white;
+  border: 1px solid #053B50;
+  color: #053B50;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.btn-add-task:hover {
+  background-color: #e6f3ff;
+}
+
+.btn-my-task {
+  background-color: #053B50;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #f4f4f4;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.badge-collecting {
+  background-color: #ffffcc;
+  color: #333;
+}
+
+.badge-reject {
+  background-color: #ffc2c2;
+  color: #a00;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.action-btn:hover {
+  color: #053B50;
+}

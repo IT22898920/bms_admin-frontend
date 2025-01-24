@@ -1,0 +1,99 @@
+.user-activity-log {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.client-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-management-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.client-management-header p {
+  margin: 0;
+  color: #888;
+}
+
+.action-buttons button {
+  margin-left: 10px;
+}
+
+.activity-log {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.activity-log h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.activity-log-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.activity-log-table th,
+.activity-log-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.activity-log-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.activity-log-table tr:hover {
+  background-color: #f9f9f9;
+}
+/* Truncated Text Style */
+.complaint-details-truncated {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.complaint-details-truncated:hover {
+  color: #0056b3;
+}
+
+/* Modal Style */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,260 @@
+.contact-form-container {
+  display: flex;
+  padding: 20px;
+  background-color: #f8f9fa;
+  gap: 20px;
+}
+
+.fields-section {
+  width: 25%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fields-section h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.fields-list {
+  margin-bottom: 20px;
+}
+
+.fields-list h4 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.fields-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.field-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  background: #176b87;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.field-button:hover {
+  background: #154e65;
+}
+
+.form-section {
+  width: 75%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-header h2 {
+  color: #333;
+}
+
+.preview-button,
+.save-button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.preview-button {
+  background: #ddd;
+}
+
+.save-button {
+  background: #176b87;
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-row span {
+  color: red;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.upload-container {
+  border: 2px dashed #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+  cursor: pointer;
+}
+
+.upload-container:hover {
+  border-color: #176b87;
+}
+
+.upload-container p {
+  margin: 0;
+}
+
+.form-submit-button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background: #176b87;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-inline input {
+  width: 48%; 
+}
+
+.header-container {
+  display: flex;
+  background-color: #f4f4f4; /* Light gray background */
+  border-bottom: 2px solid #ddd; /* Separator line below */
+}
+
+.header-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.header-item.active {
+  background-color: #d3d3e6; /* Highlight for active tab */
+  color: #000; /* Darker text for contrast */
+}
+
+
+
+.contact-form-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 30px; /* Increased gap for better spacing */
+}
+
+.form-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease;
+  width: 100%; /* Ensure full width in grid layout */
+}
+
+.form-card:hover {
+  transform: translateY(-8px); /* Increased hover effect */
+}
+
+.form-image-placeholder {
+  background-color: #eaeaea;
+  height: 200px; /* Increased height for larger image placeholder */
+  width: 500px; /* Ensure full width */
+}
+
+.form-card-content {
+  padding: 20px; /* Increased padding for more spacing */
+  background-color: #f9f9f9; /* Slight contrast background for text */
+}
+
+.form-card-content h4 {
+  font-size: 20px; /* Larger font size for title */
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-card-content p {
+  font-size: 16px; /* Larger font size for description */
+  color: #555;
+  margin: 0;
+}
+
+
+.form-header {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.preview-button,
+.save-button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+}
+
+.preview-button {
+  background-color: #ddd;
+  color: #333;
+}
+
+.preview-button:hover {
+  background-color: #ccc;
+}
+
+.save-button {
+  background-color: #176b87;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #154e65;
+}
+
+

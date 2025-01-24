@@ -1,0 +1,154 @@
+
+
+.concern-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+.concern-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.concern-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.btn-concern {
+  background-color: #176B87;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-concern:hover {
+  background-color: #176B87;
+}
+
+
+.concern-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.concern-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.concern-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.concern-section button {
+  background-color: #176B87;
+  color: white;
+  padding: 30px 30px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.concern-section button:hover {
+  background-color: #176B87;
+}
+
+
+.contact-details-section {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.contact-details-section .schedule-meeting-btn {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 30px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-details-section .schedule-meeting-btn:hover {
+  background-color: #0056b3;
+}
+.logout-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #d9363e;
+}
+/* Timeline Item Styling */
+.timeline {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-item.completed .status-icon {
+  color: green;
+}
+
+.status-icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.timeline-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* Logo */
+.header .logo img {
+  max-width: 120px;
+  height: auto;
+}

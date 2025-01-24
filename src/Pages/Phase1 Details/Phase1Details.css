@@ -1,0 +1,228 @@
+.phase1-details {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.header p {
+  margin: 0;
+  color: #888;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-buttons .btn {
+  padding: 10px 23px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.details-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.contact-details-section {
+  width: 30%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.client-info h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.client-info .client-id {
+  font-size: 14px;
+  color: #777;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.contact-details li svg {
+  margin-right: 10px;
+  color: #333;
+}
+
+.details-section {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.details-section h3 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 53px; /* Vertical spacing between detail rows */
+}
+
+.detail-item:last-child {
+  margin-bottom: 30px; /* Increased spacing below the Resume section */
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; /* Horizontal gap between buttons */
+  margin-top: 131px; /* Add spacing above the buttons */
+}
+
+.btn-reject {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-reject:hover {
+  background-color: #ff7875;
+}
+
+.btn-verified {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-verified:hover {
+  background-color: #218838;
+}
+
+
+.modal-field {
+  margin-bottom: 20px;
+}
+
+.modal-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ant-modal-footer button {
+  margin-left: 10px;
+}
+
+.btn-reject {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-reject:hover {
+  background-color: #ff7875;
+}
+
+.btn-verified {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-verified:hover {
+  background-color: #218838;
+}
+.checkbox-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 10px; /* Space between items */
+  margin-top: 10px;
+}
+
+.modal-field {
+  margin-bottom: 20px;
+}
+
+.checkbox-container .ant-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}

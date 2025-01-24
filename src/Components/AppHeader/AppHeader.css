@@ -1,0 +1,247 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Ensuring font consistency */
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.user-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-email {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
+
+.icon {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.dropdown-icon {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+
+.search-area {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0; 
+    padding: 5px; 
+    width: 30%; 
+    margin-left: 350px; 
+    border-radius: 8px; 
+}
+
+.search-input {
+    flex-grow: 1;
+    margin-right: 10px; 
+    height: 40px; 
+    border: none; 
+    padding: 0 10px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #053B50;
+    color: white;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+
+/* AppHeader.css */
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: #999;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-menu {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.user-info {
+  margin-left: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-email {
+  color: #888;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d9363e;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.search-area {
+  position: relative;
+  width: 300px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+  color: #888;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-menu {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.notification-icon {
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.notification-icon:hover {
+  color: #1890ff;
+}
+
+.user-register-button,
+.logout-button {
+  margin-left: 10px;
+}
+
+
+/* AppHeader.css */
+
+@keyframes bounce {
+  0%,
+  20%,
+  53%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40%,
+  43% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  90% {
+    transform: translateY(-2px);
+  }
+}
+
+.notification-bounce {
+  animation: bounce 1.5s ease infinite; /* or the timing you prefer */
+}
+

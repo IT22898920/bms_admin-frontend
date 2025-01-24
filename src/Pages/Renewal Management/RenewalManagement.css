@@ -1,0 +1,248 @@
+/* MAIN CONTAINER */
+.document-management,
+.renewal-management {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER SECTION */
+.client-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-management-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.client-management-header p {
+  margin: 0;
+  color: #888;
+}
+
+/* ACTION BUTTONS */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.action-buttons .btn-light,
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.action-buttons .btn-primary,
+.btn-primary {
+  background-color: #053B50; /* Or #1890ff if you prefer */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FILTER ROW */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* EXPORT BAR */
+.export-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0; /* top/bottom spacing */
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  gap: 20px; /* space between left & right groups */
+}
+
+.export-bar > div {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  gap: 10px; /* space between search bar and export button */
+}
+
+/* RESULTS COUNT DROPDOWN */
+.results-count {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* SEARCH INPUT */
+.search-input,
+.custom-search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 150px; /* Adjust as desired */
+}
+
+/* EXPORT BUTTON */
+.export-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  background-color: #053B50; /* or #1890ff */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background-color: #0056b3; /* or darken(#053B50) */
+}
+
+.export-btn svg {
+  margin-right: 5px;
+}
+
+/* TABLE STYLING */
+.renewal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.renewal-table thead {
+  background-color: #f0f0f0;
+}
+
+.renewal-table th,
+.renewal-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.renewal-table tbody tr:hover {
+  background-color: #fafafa;
+}
+
+/* BADGE EXAMPLES (OPTIONAL) */
+.badge {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.badge-active {
+  background-color: #28a745;
+}
+
+.badge-pending {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.badge-overdue {
+  background-color: #dc3545;
+}
+
+/* ACTION BTNS INSIDE TABLE ROWS */
+/* Base style for action buttons */
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;               /* Space between icon and text */
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.view-btn {
+  background-color: #1890ff;
+  color: #fff;
+  margin-right: 8px; /* space for Delete button */
+}
+.view-btn:hover {
+  background-color: #40a9ff;
+}
+.delete-btn {
+  background-color: #b3181b;
+  color: #fff;
+}
+.delete-btn:hover {
+  background-color: #ff7875;
+}
+
+
+
+/* PAGINATION */
+.pagination {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start; /* or space-between if you prefer */
+}
+
+.page-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.page-buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-buttons button:hover {
+  background-color: #ddd;
+}
+
+.page-buttons button.active {
+  background-color: #053B50;
+  color: #fff;
+  border: none;
+}
+
+.page-buttons button svg {
+  margin: 0;
+}
+
+/* LOADING SPINNER CONTAINER */
+.loading-container {
+  text-align: center;
+  margin-top: 50px;
+}

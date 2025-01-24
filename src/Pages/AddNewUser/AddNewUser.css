@@ -1,0 +1,125 @@
+.add-new-user {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.client-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-management-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.client-management-header p {
+  margin: 0;
+  color: #888;
+}
+
+.action-buttons button {
+  margin-left: 10px;
+}
+
+.assignment-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-form h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 32px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group span {
+  color: red;
+  margin-left: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px; /* Reduced gap between Start Date and Due Date */
+}
+
+.form-group textarea#taskDescription {
+  width: 50%;
+  height: 150px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.form-actions .btn {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1;
+}
+
+.form-group input[type="date"] {
+  width: 35%; /* Ensures input fields take full width within their container */
+}
+
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0px; /* Completely remove the gap */
+}
+
+.form-group {
+  flex: 1; /* Ensure both fields take equal space */
+  margin-right: 5px; /* Add minimal margin for spacing */
+}
+
+.form-group:last-child {
+  margin-right: 0; /* Remove margin from the last element */
+}
+
